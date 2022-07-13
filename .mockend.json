@@ -31,8 +31,10 @@
     },
     "status": { "string": ["active"] }
   },
-  "User": {
-   "name": { "regexp": "[A-Z][a-z]{5,10}" } 
+  "CustomerStats": {
+   "totalCustomer": { "int": [500] },
+   "activeCustomer": { "int": [432] },
+   "mobileAvailable": { "int": [211] }
   },
   "Post": {
     "title": { "string": {} },
