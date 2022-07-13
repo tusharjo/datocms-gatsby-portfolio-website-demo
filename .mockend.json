@@ -31,7 +31,12 @@
     },
     "status": { "string": ["active"] }
   },
-  "Metric": {
+  "Customerstat": {
+    "totalCustomer":  { "string": {} },
+    "activeCustomer":  { "string": {} },
+    "mobileAvailable":  { "string": {} }
+  },
+  "Post": {
     "title": { "string": {} },
     "content": { "string": [] },
     "comments": {
