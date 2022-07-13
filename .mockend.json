@@ -1,5 +1,7 @@
 {
-  "User": {},
+  "User": {
+   "name": { "regexp": "[A-Z][a-z]{5,10}" } 
+  },
   "Post": {
     "title": { "string": {} },
     "content": { "string": [] },
