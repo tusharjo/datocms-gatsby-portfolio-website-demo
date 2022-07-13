@@ -31,11 +31,17 @@
     },
     "status": { "string": ["active"] }
   },
-  "Stats": {
+  "Post": {
     "title": { "string": {} },
     "content": { "string": [] },
     "comments": {
       "hasMany": "Comment"
+    }
+  },
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
     }
   }
 }
