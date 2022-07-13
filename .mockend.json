@@ -2,7 +2,14 @@
   "Customer": {
     "name": { "regexp": "[A-Z][a-z]{5,10}" },
     "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
-    "phoneNo": { "int": { "min": 8888888888, "max": 9999999999 } }
+    "phoneNo": { "int": { "min": 8888888888, "max": 9999999999 } },
+    "companyName": { "regexp": "[A-Z][a-z]{5,10}" },
+    "address": { "regexp": "[A-Z][a-z]{5,10}" },
+    "createdDate: {"dateTime": {"min": "2010-01-01T00:00:00Z", "max": "2020-12-31T23:59:59Z"},
+    "updatedDate: {"dateTime": {"min": "2010-01-01T00:00:00Z", "max": "2020-12-31T23:59:59Z"}
+    "status": { "string": ["active"] },
+  }
+
   },
   "User": {
    "name": { "regexp": "[A-Z][a-z]{5,10}" } 
