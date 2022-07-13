@@ -32,9 +32,9 @@
     "status": { "string": ["active"] }
   },
   "CustomerStats": {
-   "totalCustomer": { "int": [500] },
-   "activeCustomer": { "int": [432] },
-   "mobileAvailable": { "int": [211] }
+   "totalCustomer": { "int": [] },
+   "activeCustomer": { "int": [] },
+   "mobileAvailable": { "int": [] }
   },
   "Post": {
     "title": { "string": {} },
