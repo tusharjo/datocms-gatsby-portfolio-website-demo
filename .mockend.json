@@ -32,7 +32,7 @@
     "status": { "string": ["active"] }
   },
   "Customerstats": {
-    "totalCustomer":  { "string": {} }
+    "title": { "string": {} }
   },
   "Post": {
     "title": { "string": {} },
