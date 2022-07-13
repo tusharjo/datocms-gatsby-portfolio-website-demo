@@ -2,11 +2,7 @@
   "Customer": {
     "name": { "regexp": "[A-Z][a-z]{5,10}" },
     "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
-    "phoneNo": {"int": [
-      100,
-      200,
-      300
-    ]}
+    "phoneNo": { "int": { "min": 8888888888, "max": 9999999999 } }
   },
   "User": {
    "name": { "regexp": "[A-Z][a-z]{5,10}" } 
