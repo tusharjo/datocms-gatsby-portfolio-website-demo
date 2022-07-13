@@ -40,11 +40,5 @@
     "comments": {
       "hasMany": "Comment"
     }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
   }
 }
