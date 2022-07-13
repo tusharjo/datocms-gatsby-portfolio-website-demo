@@ -32,9 +32,6 @@
     "status": { "string": ["active"] }
   },
   "Customerstats": {
-    "title": { "string": {} }
-  },
-  "Post": {
     "title": { "string": {} },
     "content": { "string": [] },
     "comments": {
