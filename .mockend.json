@@ -31,7 +31,7 @@
     },
     "status": { "string": ["active"] }
   },
-  "Post": {
+  "Stats": {
     "title": { "string": {} },
     "content": { "string": [] },
     "comments": {
