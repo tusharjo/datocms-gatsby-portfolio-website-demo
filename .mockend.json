@@ -17,7 +17,7 @@
         "max": "2020-12-31T23:59:59Z"
        }
     },
-    "status": { "string": {} }
+    "status": { "string": ["active"] }
   },
   "User": {
    "name": { "regexp": "[A-Z][a-z]{5,10}" } 
