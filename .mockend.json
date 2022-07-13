@@ -31,11 +31,6 @@
     },
     "status": { "string": ["active"] }
   },
-  "CustomerStats": {
-   "totalCustomer": { "int": [] },
-   "activeCustomer": { "int": [] },
-   "mobileAvailable": { "int": [] }
-  },
   "Post": {
     "title": { "string": {} },
     "content": { "string": [] },
